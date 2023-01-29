@@ -1,0 +1,34 @@
+Initial Project
+
+Hide Folder Information
+Instructions
+Introduction
+In this Initial Project you are to search for a dataset and determine a realistic regression or classification use case for this data. You will work to clean the dataset and conduct an exploratory analysis to better understand what you have to work with. Note that the development of the (decision tree and support vector machine) models and analysis of results is not required here -- that is the subject of the Final Project.
+
+This project will be graded in a face-to-face evaluation with your instructor. Grades are given according to the attached rubric. A grading schedule will be posted to the MS Teams site after the due date.
+
+
+Steps to Completion
+
+Data Selection
+Think about what kind of data you are interested in working with -- whether it be something that is of personal interest to you or something that might benefit you in a future job application.  You can work with data in CSV format, or with text data, although image data will not be suitable for this project. An updated list of sources for data can be found in the article "Best Public Datasets for Machine Learning and Data Science", by Stacy Stanford, Roberto Iriondo and Pratik Shukla from Towards AI. You may even obtain data from a database or web page using methods learned in COMP-2040.
+
+
+Report
+Develop a report using either Excel/Word or Jupyter notebooks with markdown text, containing both written content and calculations to clean, analyze, visualize and discuss your data. The report should contain the sections listed below, in order. Clearly indicate the sections and make an effort to create a professional-looking document. Where coding or Excel formulas are used, provide comments to explain how it works.
+
+Executive Summary: In 100 words or less, provide a brief overview of what is contained within the notebook. Describe the dataset, use case, cleaning, analysis, and visualizations provided. Discuss the main points learned from this analysis and speculate on how decision trees and SVMs can be developed and used. Display the word count below your summary.
+
+Use Case: Imagine a fictional workplace scenario where you, an employee, are tasked with creating a supervised learning model for a certain use case. The model might be needed to inform a business decision, or to be part of a larger code as the backend of a software application, or to improve the quality of medical imagery in a hospital, etc. Write this section to introduce your dataset and present the use case. Important: write the entire report as if you are preparing to present this work to your employer or to an external client (according to your use case).
+
+Data Selection and Cleaning: Describe the data including the features and type (float, string, int, etc.). Quote the source (who made the dataset, not just where you found it) and provide a link. Load the data into Excel or a Pandas dataframe and print a portion of it. Discuss which parts of the data are relevant to your use case. Discuss the steps taken to clean and prepare the data for analysis and visualization. Note: you should not do any preprocessing here (such as standardization or removing stopwords), as that will be part of the Final Project.
+
+Analysis and Visualization: Use Excel charts, or the Seaborn and Matplotlib libraries to visualize the data. Use Excel formulas, or Numpy and Pandas to find descriptive statistics for your data. Be sure to provide a written description of everything you do. Items to consider including are:
+minimum, mean and maximum values of features
+standard deviation of features
+correlation coefficient between pairs of features
+number of different values in a categorical feature, with a histogram
+scatter plots, possibly with regression lines
+any other observations that occur to you
+
+Discussion: Considering the previous analysis and plots, discuss how well models will be able to train on the data in order to address the use case. Also describe the preprocessing such as text processing, one-hot encoding, rescaling, etc. that may be needed before your data is used to train the models.
